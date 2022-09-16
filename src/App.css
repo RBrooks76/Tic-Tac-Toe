@@ -1,0 +1,189 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 10rem;
+  height: 6rem;
+  font-size: 5rem;
+  background-color: rgb(0, 199, 205);
+  border: 1px solid white;
+  margin: 2px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  margin: auto;
+  text-align: center;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.title{
+  border: 1px solid white;
+  text-align: center;
+  background-color: rgb(0, 199, 205);
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.title span{
+  font-size: 5rem;
+}
+
+body{
+  background-color: rgb(153, 199, 242);
+}
+
+.game-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.player-board{
+  width: 10rem;
+  height: inherit;
+
+}
+
+.player-board-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 8rem;
+  height: 100%;
+  border: 1px solid white;
+  margin: auto;
+  background-color: rgb(0, 157, 127);
+  border-radius: 30px;
+}
+
+.player-board span{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.game-board .player-board:first-child{
+  /* margin-right: 20px; */
+}
+
+.btn{
+  font-size: 16px;
+  background-color: rgb(10, 145, 233);
+  border: 1px solid white;
+  width: 8rem;
+  height: 70px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.game-board div .board-row:first-child button:first-child{
+  border-top-left-radius: 50px;
+}
+
+.game-board div .board-row:first-child button:last-child{
+  border-top-right-radius: 50px;
+}
+
+.game-board div .board-row:last-child button:first-child{
+  border-bottom-left-radius: 50px;
+}
+
+.game-board div .board-row:last-child button:last-child{
+  border-bottom-right-radius: 50px;
+}
+
+.player{
+  margin-bottom: 30px;
+}
+
+.hidden{
+  display: none;
+}
+
+.squareStyle{
+  width: 60px;
+  height: 60px;
+  background-color: #ddd;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.rowStyle{
+  display: flex;
+}
+
+.boardStyle{
+  background-color: #eee;
+  width: 208px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: 3px #eee solid;
+}
+
+.containerStyle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.instructionsStyle{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.buttonStyle{
+  margin-top: 15px;
+  margin-bottom: 16px;
+  width: 80px;
+  height: 40px;
+  background-color: #8acaca;
+  color: white;
+  font-size: 16px;
+}
